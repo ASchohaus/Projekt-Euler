@@ -1,0 +1,1 @@
+In this repository, I try to find solutions to all Projekt Euler Problems.
