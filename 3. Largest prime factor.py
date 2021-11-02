@@ -1,7 +1,6 @@
 
 import sympy as sy
 
-
 #To find the largest prime factor, start dividing the number by the smallest prime number until u find the smallest prime factor.
 #Repeat the process for the qoutient and repeat it until the quotient becomes 1. Then u have the smallest prime factor.
 def largest_prime_factor(max):
