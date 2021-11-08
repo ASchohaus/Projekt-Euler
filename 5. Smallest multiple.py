@@ -1,3 +1,4 @@
+import time as t
 
 def multiple_find(num, max_multiple):
     is_multiple = True
@@ -16,8 +17,11 @@ def find_smallest_multiple(max_multiple):
 
 
 def main():
+    start = t.time()
     max_multiple_of_20 = find_smallest_multiple(20)
     print(max_multiple_of_20)
+    end = t.time()
+    print("Runtime = ", end-start)
 
 
 
