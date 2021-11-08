@@ -1,3 +1,4 @@
+import time as t
 
 def even_fibonacci_numbers(max):
     i_n1 = 1
@@ -15,9 +16,11 @@ def even_fibonacci_numbers(max):
 
 
 def main():
-
+    start = t.time()
     sum4e6 = even_fibonacci_numbers(4e6)
     print(sum4e6)
+    end = t.time()
+    print("Runtime = ", end-start)
 
 
 if __name__ == "__main__":
