@@ -1,3 +1,4 @@
+import time as t
 
 def multiples_of_3_or_5(max):
     sum = 0
@@ -10,8 +11,11 @@ def multiples_of_3_or_5(max):
 
 
 def main():
+    start = t.time()
     sum1000 = multiples_of_3_or_5(1000)
     print(sum1000)
+    end = t.time()
+    print("Runtime = ", end - start)
 
 if __name__ == "__main__":
     main()   
