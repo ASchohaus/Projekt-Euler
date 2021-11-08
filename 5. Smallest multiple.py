@@ -2,7 +2,7 @@ import time as t
 
 def multiple_find(num, max_multiple):
     is_multiple = True
-    for i in range(1, max_multiple):
+    for i in range(max_multiple):
         is_multiple = is_multiple and (num % (max_multiple - i) == 0)
         if is_multiple == False:
             return is_multiple
