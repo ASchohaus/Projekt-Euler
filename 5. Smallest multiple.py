@@ -8,10 +8,11 @@ def multiple_find(num, max_multiple):
             return is_multiple
     return is_multiple
 
+#i is going up by 60 points because only there it can be divided by 20 and 15
 def find_smallest_multiple(max_multiple):
-    i = 20
+    i = 60
     while(multiple_find(i, max_multiple) == False):
-        i += 20
+        i += 60
     return i
 
 
