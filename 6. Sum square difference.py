@@ -13,8 +13,6 @@ def square_of_sum(max):
     return sum**2
 
 
-
-
 def main():
     start = t.time()
     max = 100
@@ -22,6 +20,7 @@ def main():
     print(sum_difference)
     end = t.time()
     print("Runtime = ", end-start)
+    
 
 if __name__ == "__main__":
     main()
